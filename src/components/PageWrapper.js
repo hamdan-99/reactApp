@@ -10,7 +10,7 @@ class PageWrapper extends Component {
           id="mainNav"
         >
           <div className="container">
-            <Link className="navbar-brand js-scroll-trigger" to="/">
+            <Link style={{color:'#ddd'}} className="navbar-brand js-scroll-trigger" to="/">
               Home
             </Link>
             <button
@@ -24,25 +24,25 @@ class PageWrapper extends Component {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">
-              <ul className="navbar-nav ml-auto my-2 my-lg-0">
-                <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/about">
+            <div  className="collapse navbar-collapse" id="navbarResponsive">
+              <ul  className="navbar-nav ml-auto my-2 my-lg-0">
+                <li  className="nav-item">
+                  <Link style={{color:'#ddd'}} className="nav-link js-scroll-trigger" to="/about">
                     About
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/services">
+                  <Link style={{color:'#ddd'}} className="nav-link js-scroll-trigger" to="/services">
                     Services
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/portfolio">
+                  <Link  style={{color:'#ddd'}}className="nav-link js-scroll-trigger" to="/portfolio">
                     Portfolio
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link js-scroll-trigger" to="/contact">
+                  <Link style={{color:'#ddd'}} className="nav-link js-scroll-trigger" to="/contact">
                     Contact
                   </Link>
                 </li>
